@@ -1,0 +1,43 @@
+I"1
+
+<h1 id="addition">Addition</h1>
+<p>Addition is hard, right? Nope, but it’s even easier for our computers!</p>
+
+<h2 id="implementation-details">Implementation Details</h2>
+<ul>
+  <li data-marker="*">Write a program that adds 2 numbers.</li>
+  <li data-marker="*">You can use <code class="language-plaintext highlighter-rouge">get_int()</code> to grab an integer.</li>
+  <li data-marker="*">Store those values in variables of type <code class="language-plaintext highlighter-rouge">int</code></li>
+  <li data-marker="*">Print the total of those values out.</li>
+</ul>
+
+<h3 id="hints">Hints</h3>
+<p>Remember <code class="language-plaintext highlighter-rouge">printf</code> formatting codes? You can use <code class="language-plaintext highlighter-rouge">%i</code> to print out the value of a variable of type <code class="language-plaintext highlighter-rouge">int</code>.</p>
+
+<p><strong>Example:</strong> <code class="language-plaintext highlighter-rouge">example.c</code></p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="n">number</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"Your magic number is %i</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">number</span><span class="p">);</span>
+</code></pre></div></div>
+<p><strong>Output:</strong></p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>./example
+<span class="go">Your magic number is 5
+</span></code></pre></div></div>
+
+<h2 id="testing">Testing</h2>
+<p>Run <code class="language-plaintext highlighter-rouge">check50</code>: <code class="language-plaintext highlighter-rouge">check50 daltongit/checks/c/add2</code>
+Your program should work as follows:</p>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">example@example:~$</span><span class="w"> </span>./addition
+<span class="go">1st number: 2
+2nd number: 4
+6
+</span></code></pre></div></div>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>./addition
+<span class="go">1st number: 4
+2nd number: 6
+10
+</span></code></pre></div></div>
+
+<h2 id="submit">Submit</h2>
+<p>Ready to submit? Run <code class="language-plaintext highlighter-rouge">submit50 daltongit/checks/c/add2</code>.</p>
+:ET

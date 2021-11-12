@@ -1,0 +1,58 @@
+---
+layout: code
+---
+<pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="cp">#include</span> <span class="cpf">&lt;cs50.h&gt;</span><span class="cp"></span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">// Get birth year after 1924</span>
+    <span class="kt">int</span> <span class="n">birth_year</span> <span class="o">=</span> <span class="n">get_int</span><span class="p">(</span><span class="s">&quot;What is your birth year? &quot;</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">zodiac_num</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="c1">// TODO</span>
+
+    <span class="c1">// Zodiac sign</span>
+    <span class="n">string</span> <span class="n">zodiac_sign</span><span class="p">;</span>
+    <span class="c1">// Depending on the person&#39;s zodiac number, assign zodiac sign</span>
+    <span class="k">switch</span> <span class="p">(</span><span class="n">zodiac_num</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">case</span> <span class="mi">0</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Rat&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">1</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Ox&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">2</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Tiger&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">3</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Rabbit&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">4</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Dragon&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">5</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Snake&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">6</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Horse&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">7</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Goat&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">8</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Monkey&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">9</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Rooster&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">10</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Dog&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">11</span><span class="o">:</span>
+            <span class="n">zodiac_sign</span> <span class="o">=</span> <span class="s">&quot;Pig&quot;</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// Print out person&#39;s zodiac sign</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Your zodiac sign is the %s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">zodiac_sign</span><span class="p">);</span>
+<span class="p">}</span>

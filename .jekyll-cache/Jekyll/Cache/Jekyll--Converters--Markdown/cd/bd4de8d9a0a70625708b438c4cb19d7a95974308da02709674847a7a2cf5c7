@@ -1,0 +1,54 @@
+I"$<h1 id="bank">Bank</h1>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">example@example:~$</span><span class="w"> </span>python3 bank.py
+<span class="go">This program manages your money
+Enter each deposit and withdrawal
+To indicate a withdrawal, use a minus sign
+Signal the end by entering a 0
+Enter initial balance: 5
+Enter withdrawal (-) or deposit: 50
+Current balance: 55
+Enter withdrawal (-) or deposit: -60
+</span><span class="gp">This withdrawal bounces. $</span>10 fee deducted. 
+<span class="go">Current balance: -15
+You are in debt
+Enter withdrawal (-) or deposit: 0
+Final balance: -15
+</span><span class="gp">example@example:~$</span><span class="w">
+</span></code></pre></div></div>
+
+<p>In Bank, you will write a program that manages a user’s funds for them.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<ol>
+  <li>Download the distribution code by executing <code class="language-plaintext highlighter-rouge">wget https://daltongit.github.io/problems/bank/bank.zip</code></li>
+</ol>
+
+<h2 id="program-specifications">Program Specifications</h2>
+
+<ul>
+  <li data-marker="*">Print the followint instructions:</li>
+  <li data-marker="*">
+    <blockquote>
+      <p>This program manages your money<br />
+Enter each deposit and withdrawal<br />
+To indicate a withdrawal, use a minus sign<br />
+Signal the end by entering a 0</p>
+    </blockquote>
+  </li>
+  <li data-marker="*">Prompt the user for an initial balance. You may find the function <code class="language-plaintext highlighter-rouge">get_int()</code> useful.</li>
+  <li data-marker="*">If the initial balance is less than 0, reprompt.</li>
+  <li data-marker="*">Prompt the user to make a deposit or withdrawal. Again, you may find the function <code class="language-plaintext highlighter-rouge">get_int</code> useful.</li>
+  <li data-marker="*">If the user withdraws more money than is in the account, notify the user in red text that the check bounced and a &amp;dollar;10 fee is deducted from the account.</li>
+  <li data-marker="*">Display the current balance. If the current balance is less than 0, display the balance in red. Otherwise, display the balance in green.</li>
+  <li data-marker="*">Continue prompting the user and displaying the balance until the user types 0.</li>
+  <li data-marker="*">Once the user types 0, print out the final balance. If the final balance is under 0, display the balance in red. Otherwise display the balance in green.</li>
+</ul>
+
+<h2 id="hints">Hints</h2>
+
+<p>To print red text, you may find the function <code class="language-plaintext highlighter-rouge">print_red()</code> useful. <code class="language-plaintext highlighter-rouge">print_red()</code> takes 1 argument: the string to print.</p>
+
+<p>To print green text, you may find the function <code class="language-plaintext highlighter-rouge">print_green()</code> useful. Similar to <code class="language-plaintext highlighter-rouge">print_red()</code>, <code class="language-plaintext highlighter-rouge">print_green()</code> takes 1 argument: the string to print.</p>
+:ET

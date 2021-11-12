@@ -1,0 +1,19 @@
+I"<h1 id="lab-1">Lab 1</h1>
+<div class="alert alert-danger" role="alert">
+  Complete the setup before you complete the actual labs
+</div>
+<h2 id="setup">Setup</h2>
+<ol>
+  <li>Go to https://classroom.github.com/a/OH4zBV4H and accept the assignment invite</li>
+  <li>Go to https://classroom.github.com/a/XZ72N3f8 and accept the assignment invite</li>
+</ol>
+
+<h2 id="now-complete">Now complete</h2>
+<ul>
+  <li data-marker="*">Complete <a href="/problems/hello">Hello</a>.</li>
+  <li data-marker="*">Complete <a href="/problems/add2">Addition</a></li>
+</ul>
+
+<h1 id="hints">Hints</h1>
+<p>If you need help compiling, you can always run <code class="language-plaintext highlighter-rouge">help50 make add2</code> or <code class="language-plaintext highlighter-rouge">help50 make hello</code>.</p>
+:ET

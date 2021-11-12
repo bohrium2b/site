@@ -1,0 +1,42 @@
+I" <h1 id="hello">Hello</h1>
+<p>In Hello, your task is to write a program that greets someone by their name.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+  <li>Open a terminal</li>
+  <li>Execute <code class="language-plaintext highlighter-rouge">mkdir hello</code> to create a folder called <code class="language-plaintext highlighter-rouge">hello</code>.</li>
+  <li>Then move into that folder by executing <code class="language-plaintext highlighter-rouge">cd hello</code>.</li>
+</ol>
+
+<h2 id="your-1st-program">Your 1st program</h2>
+<p>Create a new file and call it <code class="language-plaintext highlighter-rouge">hello.c</code>. Add the following code into the file:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+#include &lt;cs50.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Then run <code class="language-plaintext highlighter-rouge">make hello</code>. That compiles your program. 
+To run the newly compiled program, execute <code class="language-plaintext highlighter-rouge">./hello</code>.</p>
+
+<h2 id="greeting-a-user">Greeting a user</h2>
+<p>Change the program so that the program prompts the user for their name and then prints <code class="language-plaintext highlighter-rouge">Hello, </code> and the user’s name.</p>
+
+<h3 id="implementation-details">Implementation Details</h3>
+<ul>
+  <li data-marker="*">You might want to use <code class="language-plaintext highlighter-rouge">get_string()</code> and store the result in a variable of type <code class="language-plaintext highlighter-rouge">string</code>.</li>
+  <li data-marker="*">To print out <code class="language-plaintext highlighter-rouge">Hello, [user's name]</code>, you should use <code class="language-plaintext highlighter-rouge">printf</code> formatting codes, which is a fancy phrase for <em>placeholder</em>.
+    <ul>
+      <li data-marker="*">So <code class="language-plaintext highlighter-rouge">printf("Hello, %s\n", name);</code> where <code class="language-plaintext highlighter-rouge">name</code> is a variable of type <code class="language-plaintext highlighter-rouge">string</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="testing">Testing</h1>
+<p>Run <code class="language-plaintext highlighter-rouge">check50 daltongit/checks/c/hello</code>.</p>
+
+<h2 id="submit">Submit</h2>
+<p>Ready to submit? Run <code class="language-plaintext highlighter-rouge">submit50 daltongit/checks/c/hello</code> to submit.</p>
+:ET

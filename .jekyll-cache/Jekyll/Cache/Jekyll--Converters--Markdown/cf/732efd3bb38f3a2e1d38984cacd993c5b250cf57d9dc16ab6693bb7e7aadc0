@@ -1,0 +1,115 @@
+I"M<h1 id="zodiac">Zodiac</h1>
+<p>In Zodiac, your task is to write a program that determines a person’s Chinese zodiac sign given their date of birth.
+For example, if a person was born in 2008, his zodiac sign would be the <strong>rat</strong>.
+A table of zodiac signs is below:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Zodiac</th>
+      <th style="text-align: center">Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Rat (鼠)</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Ox (牛)</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Tiger (虎)</td>
+      <td style="text-align: center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rabbit (兔)</td>
+      <td style="text-align: center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Dragon (龙)</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Snake (蛇)</td>
+      <td style="text-align: center">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Horse (马)</td>
+      <td style="text-align: center">7</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Goat (羊)</td>
+      <td style="text-align: center">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Monkey (猴)</td>
+      <td style="text-align: center">9</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rooster (鸡)</td>
+      <td style="text-align: center">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Dog (狗)</td>
+      <td style="text-align: center">11</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Pig (猪)</td>
+      <td style="text-align: center">12</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="zodiac.jpg" alt="Zodiac image" /></p>
+<blockquote>
+  <p>Image: freepix<br />
+Chinese zodiac animals red set of rabbit dog monkey pig tiger horse dragon goat snake rooster ox rat isolated cartoon by Macrovector</p>
+</blockquote>
+
+<p>How should you figure out what zodiac sign a person is? Well, if a person is born in 1924, then their sign is Rat. After that, you can use years after 1924 to determine their zodiac sign. 
+So, if a person was born 5 years after 1924 (Year of the Rat), then their zodiac sign’s number (in the table above) would be <strong>5 + 1</strong> or <strong>6</strong>. That person’s zodiac sign would be the Snake. <br />
+What if a person was born 13 years after 1924? You could use this process:</p>
+<ol>
+  <li>Find the amount of years after 1924.</li>
+  <li>Find the remainder when divided by 12.</li>
+  <li>That number is the person’s zodiac sign.</li>
+  <li>Print out the corresponding zodiac.</li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+  <li>Create a directory called <code class="language-plaintext highlighter-rouge">zodiac</code> using <code class="language-plaintext highlighter-rouge">mkdir zodiac</code></li>
+  <li>Move into that directory by using <code class="language-plaintext highlighter-rouge">cd zodiac</code>.</li>
+  <li>Execute <code class="language-plaintext highlighter-rouge">wget https://daltongit.github.io/problems/zodiac/zodiac.c</code> to download the source code</li>
+</ol>
+
+<h2 id="implementation-details">Implementation Details</h2>
+<ul>
+  <li data-marker="*">Your program should reprompt for the user’s birth year if the year is before 1924</li>
+  <li data-marker="*">We define a variable, <code class="language-plaintext highlighter-rouge">zodiac_num</code>, that should be used to store that person’s zodiac number.</li>
+  <li data-marker="*">Your program should return Rat for 1924</li>
+  <li data-marker="*"><strong>Assume a Gregorian Calendar</strong></li>
+</ul>
+
+<h2 id="example">Example</h2>
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">example@example:~$</span><span class="w"> </span>./zodiac
+<span class="go">What is your birth year? 2008
+Your zodiac sign is the Rat
+</span></code></pre></div></div>
+
+<h2 id="walkthrough">Walkthrough</h2>
+<video id="walkthrough" controls="" preload="auto" width="720" height="480" playsinline="" class="video-js" title="Zodiac Walkthrough" data-setup="{}">
+    <source src="https://roundrockisdorg-my.sharepoint.com/personal/s119263_student_roundrockisd_org/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fs119263_student_roundrockisd_org%2FDocuments%2Fcs%2Fzodiac-walkthrough.mp4&amp;correlationId=2af11c09-3ba8-4551-90a0-c5815d603b37&amp;psi=0aee37d2-470e-4476-8d10-7200dca86ceb&amp;ccat=2&amp;cs=fHxPbmVVcFdlYlBsYXllcg%3D%3D&amp;App=OneDriveWebVideo" type="video/mp4" />
+  </video>
+
+<h2 id="testing">Testing</h2>
+<p>Make sure your program returns Tiger when given 1998.
+Also check with <code class="language-plaintext highlighter-rouge">check50</code>:<br />
+<code class="language-plaintext highlighter-rouge">check50 daltongit/checks/c/zodiac</code></p>
+
+<h2 id="submit">Submit</h2>
+<p>Ready to submit? Submit using <code class="language-plaintext highlighter-rouge">submit50 daltongit/checks/c/zodiac</code>.</p>
+
+:ET

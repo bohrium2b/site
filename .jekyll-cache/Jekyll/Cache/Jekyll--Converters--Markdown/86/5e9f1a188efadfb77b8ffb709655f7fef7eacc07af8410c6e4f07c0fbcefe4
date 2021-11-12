@@ -1,0 +1,37 @@
+I"�
+<h2 id="divisible">Divisible</h2>
+<p>In divisible, your task is to print out every number between <code class="language-plaintext highlighter-rouge">1</code> and <code class="language-plaintext highlighter-rouge">100</code> that is divisible
+by 6. The first numbers in the sequence should be <code class="language-plaintext highlighter-rouge">6</code>, <code class="language-plaintext highlighter-rouge">12</code>, <code class="language-plaintext highlighter-rouge">18</code> …<br />
+You <strong>don’t</strong> need <code class="language-plaintext highlighter-rouge">&lt;cs50.h&gt;</code>!</p>
+
+<h2 id="how-to-get-started">How to get started</h2>
+<ol>
+  <li>Create a new directory (<code class="language-plaintext highlighter-rouge">mkdir divisible</code>) and <code class="language-plaintext highlighter-rouge">cd</code> into it (<code class="language-plaintext highlighter-rouge">cd divisible</code>).</li>
+  <li>Execute <strong><code class="language-plaintext highlighter-rouge">wget https://daltongit.github.io/problems/divisible/divisible.c</code></strong> to download the distribution code.<br />
+Want to download the distribution code from your browser? You can get it <strong><a href="divisible.c">here</a></strong></li>
+</ol>
+
+<h2 id="implementation-details">Implementation Details</h2>
+<p>How should you check if a number is divisible by six? Well, you can repeat through every number
+and check, <strong>does dividing it by six output a whole number</strong>?
+If so, then that number is divisible by 6, and you should <code class="language-plaintext highlighter-rouge">print</code> it out.<br />
+In general, you should fill in the sections marked with a <code class="language-plaintext highlighter-rouge">TODO</code> and the bits that have a line (<code class="language-plaintext highlighter-rouge">___</code>)</p>
+
+<details><summary>Hint</summary><p>You can use the <code class="language-plaintext highlighter-rouge">modulus</code> (<code class="language-plaintext highlighter-rouge">%</code>) operator to get the remainder of 2 numbers.</p></details>
+
+<h2 id="walkthrough">Walkthrough</h2>
+
+<video id="walkthrough" controls="" preload="auto" width="720" height="480" poster="divisible-cover.jpg" playsinline="" class="video-js" title="Divisible Walkthrough" data-setup="{}">
+    <source src="walkthrough.mp4" type="video/mp4" />
+  </video>
+
+<h2 id="testing">Testing</h2>
+<p>Run
+<code class="language-plaintext highlighter-rouge">check50 daltongit/checks/c/divisible</code>.</p>
+
+<p>Run <code class="language-plaintext highlighter-rouge">style50</code></p>
+
+<h2 id="how-to-submit">How to submit</h2>
+<p>Ready to submit? Once you are ready, run
+<code class="language-plaintext highlighter-rouge">submit50 daltongit/checks/c/divisible</code>.</p>
+:ET

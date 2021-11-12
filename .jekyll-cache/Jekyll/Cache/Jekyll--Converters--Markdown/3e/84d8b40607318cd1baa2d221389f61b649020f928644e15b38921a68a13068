@@ -1,0 +1,6 @@
+I"x<h1 id="guess">Guess</h1>
+
+<p>```console
+example@example:~$ python3 guess.py
+Enter a number between 1 and 6: 5</p>
+:ET

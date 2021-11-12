@@ -1,0 +1,20 @@
+I"÷<h1 id="computer-science">Computer Science</h1>
+<ul>
+  <li data-marker="*"><a href="/labs">Labs</a></li>
+  <li data-marker="*"><a href="/psets/">Problem Sets</a></li>
+</ul>
+
+<h2 id="week-1">Week 1</h2>
+<ul>
+  <li data-marker="*">
+    <p><a href="/cs/l1/notes">Notes</a></p>
+  </li>
+  <li data-marker="-">
+    <p>Problems</p>
+    <ul>
+      <li data-marker="*">Complete <a href="/labs/1">Lab 1</a></li>
+      <li data-marker="*">Complete <a href="/psets/1">Problem Set 1</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

@@ -1,0 +1,10 @@
+I"Ÿ<h1 id="security-with-sql">Security with SQL</h1>
+<h2 id="and-little-bobby-tables">(and Little Bobby Tables)</h2>
+
+<div class="alert" data-alert="primary" role="alert"> <p>Prevent using <code class="language-plaintext highlighter-rouge">?</code> in queries</p></div>
+
+<p><img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png" alt="Little Bobby Tables" /></p>
+
+<p>That is an injection attack. 
+It is BAD.</p>
+:ET
